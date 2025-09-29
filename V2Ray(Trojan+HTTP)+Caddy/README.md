@@ -5,7 +5,7 @@
 原理：
 
 默认流程：WEB client <----------------- HTTP/2 -----------------> Caddy（WEB server）  
-反代流程：V2Ray client <--------- HTTP/2（H2C+TLS） --------> Caddy <-- H2C --> V2Ray server
+反代流程：V2Ray client <-------- HTTP+TLS（HTTP/2） --------> Caddy <-- H2C --> V2Ray server
 
 注意：
 
